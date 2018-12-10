@@ -1,5 +1,4 @@
 # source code for car-side impact problem
-
 rm(list = ls())
 library(suropt)
 
@@ -56,7 +55,7 @@ fun <- function(x){
 
 n0 = 20 #number of initial designs
 n1 = 60 #number of infill designs
-d = 7 #dimension of design space
+d = 7   #dimension of design space
 
 N <- 1:25 #run each proccess indenpendently 25 times and save all models oin tempdir
 for (i in N){
